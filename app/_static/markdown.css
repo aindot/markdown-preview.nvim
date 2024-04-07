@@ -314,7 +314,7 @@
 
 /* Enhanced Styles for Mermaid Diagrams - custom-mermaid.css */
 
-@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700&display=swap');
+/* import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700&display=swap'); */
 
 /* General styling for the container */
 .mermaid {
@@ -323,14 +323,14 @@
   background-color: #f9f9f9; /* Light background for better contrast */
   border-radius: 8px; /* Soften edges for a modern look */
   box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Subtle shadow for depth */
-  font-family: 'Tajawal', sans-serif; /* Tajawal font for all text */
+  /* font-family: 'Tajawal', sans-serif; /* Tajawal font for all text */
   --node-border-color: var(--mermaid-primary-color); /* Using primary color for node borders */
   --edge-color: var(--mermaid-secondary-color); /* Using secondary color for edges */
 }
 
 /* SVG specific adjustments for better scaling and readability */
 svg {
-  max-width: 100% !important; /* Ensure SVG fits container */
+  /* max-width: 100% !important; /* Ensure SVG fits container */
   height: auto !important; /* Maintain aspect ratio */
 }
 
@@ -338,7 +338,7 @@ svg {
 /* Enhance text readability */
 
 .mermaid text {
-  font-family: 'Tajawal', sans-serif; /* Tajawal font for better readability */
+  /* font-family: 'Tajawal', sans-serif; /* Tajawal font for better readability */
   font-size: 16px; /* Optimal size for readability */
 }
 
